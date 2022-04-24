@@ -12,7 +12,7 @@ source activate bert
 conda install pip
 conda install ipykernel
 source activate bert
-python -m ipykernel install --user --name ml04 --display-name "Python: BERT"
+python -m ipykernel install --user --name bert --display-name "Python: BERT"
 jupyter notebook
 ```
 ### paraphrase detection
