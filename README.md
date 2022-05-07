@@ -10,7 +10,7 @@ conda create -n bert python=3.7 ipython
 conda activate bert
 pip install -r requirements.txt
 # python -m deeppavlov install squad_bert
-# python -m deeppavlov install squad_torch_bert
+python -m deeppavlov install squad_torch_bert
 source activate bert
 conda install pip
 conda install ipykernel
